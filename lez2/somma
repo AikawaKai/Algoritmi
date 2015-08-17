@@ -1,0 +1,15 @@
+#include <stdio.h>
+"
+int main(void){
+	
+	int var,sum=0;
+	
+	printf("Inserisci i numeri da sommare: \n");
+	while(var=scanf("")!=0){
+		if(var>0){
+			sum = sum + var;
+		}
+	}
+	printf ("\n La somma dei numeri è: %d",sum);
+
+}

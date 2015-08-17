@@ -1,0 +1,44 @@
+#include <stdio.h>
+#define SET 30
+#define OTT 31
+#define NOV 30
+#define DIC 31
+#define GEN 31
+#define FEB 28
+#define MAR 31
+#define APR 30
+#define MAG 31
+#define GIU 30
+#define LUG 31
+#define AUG 31
+
+
+int main(void){
+	
+	int mese, giorno, i, j, gg=0;
+	printf("Inserisci il mese e il giorno di inizio mese: ");
+	scanf("%d",&mese);
+	scanf("%d",&giorno);
+	printf("L M M G V S D")
+	for(i=0;i<4;i++)
+	{
+		for(j=start;j<end;j++)
+		{
+			if(j==giorno)
+			{
+				for(j=giorno;j<end;j++)
+				{
+					printf(" %d ",j);
+				}
+			}
+			else
+			{
+				printf("  ");
+			}
+		}
+		start=end;
+		end=end+7;
+		printf("\n");
+	}
+
+}
