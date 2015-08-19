@@ -19,7 +19,7 @@ int main(void){
 	{
 		printf("\n\nI voti dello studente %d: ",i+1);
 		media1=0;
-		media2=0;
+		media2=0
 		for(j=0;j<5;j++)
 		{
 			printf("%d ",voti[i][j]);
@@ -31,5 +31,4 @@ int main(void){
 		printf(" con media %f",media1);
 		printf("\n\n Media esame %d: %f ",i+1,media2);
 	}
-
 }
